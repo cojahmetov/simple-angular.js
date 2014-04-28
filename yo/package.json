@@ -6,7 +6,10 @@
     "express": "3.x"
   },
   "devDependencies": {
-    "load-grunt-tasks": "~0.4.0",
-    "grunt-contrib-watch": "~0.5.2"
+    "load-grunt-tasks": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-express-server": "latest",
+    "grunt-open": "latest"
   }
 }
