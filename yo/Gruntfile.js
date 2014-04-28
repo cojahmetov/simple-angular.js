@@ -8,44 +8,40 @@ module.exports = function(grunt) {
                options: {
                    port: 9000,
                    script: 'app.js',
-	           fallback: function () {
-
                }
            }
         },
 
 	open: {
-	    delayed: {
+	    prod: {
 		path: 'http://127.0.0.1:9000',
-	        app: 'Google Chrome',
-	        options: {
-		    openOn: 'serverListening'
-	        }
             }
+	},
+	reload: {
+	    port: 9000,
+	    proxy: {
+		host: '127.0.0.0'
+	    }
 	},
 
         watch: {
-            options: {
-                livereload: true
-            },
+
 
 	    express: {
 		files: ['<%= pkg.name %>/static/**',
 			'app.js'],
 		tasks: ['express:prod'],
 		options: {
-		    spawn: false
+		    spawn: false,
+		    livereload: true
 		}
 	    }
         }
     });
     grunt.registerTask('default', 'start server', function() {
         grunt.task.run('express');
-        console.log("ssss");
+        grunt.task.run('open');
         grunt.task.run('watch');
-	if (!err) {
-	    grunt.event.emit('serverListening');
-	    }
     });
 }
 
