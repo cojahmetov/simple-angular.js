@@ -18,7 +18,7 @@ module.exports = function(grunt) {
             }
 	},
 	reload: {
-	    port: 9000,
+	    port: 35729,
 	    proxy: {
 		host: '127.0.0.0'
 	    }
@@ -35,7 +35,10 @@ module.exports = function(grunt) {
 		    spawn: false,
 		    livereload: true
 		}
-	    }
+	    },
+		files: ['<%= pkg.name %>/static/**',
+			'app.js'],
+		tasks: ['reload'],
         }
     });
     grunt.registerTask('default', 'start server', function() {

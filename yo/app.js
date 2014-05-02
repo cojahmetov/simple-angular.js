@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res){
-      res.send('Hello World');
+      res.send('<script src="http://localhost:35729/livereload.js"></script><H1>Hello Wor</H1>');
 });
 
 var server = app.listen(9000, function() {
