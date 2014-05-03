@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 	reload: {
 	    port: 35729,
 	    proxy: {
-		host: '127.0.0.0'
+		host: '0.0.0.0'
 	    }
 	},
 
@@ -29,6 +29,7 @@ module.exports = function(grunt) {
 
 	    express: {
 		files: ['<%= pkg.name %>/static/**',
+                         'static/**',
 			'app.js'],
 		tasks: ['express:prod'],
 		options: {
@@ -43,7 +44,9 @@ module.exports = function(grunt) {
     });
     grunt.registerTask('default', 'start server', function() {
         grunt.task.run('express');
-        grunt.task.run('open');
+        //Uncomment this If you plan on running on running on 
+        //just 127.0.0.1 rather than all interfaces 0.0.0.0
+        //grunt.task.run('open');
         grunt.task.run('watch');
     });
 }
