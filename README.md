@@ -10,9 +10,6 @@ This is a micro boiler plate that runs Angular.js and Express.js with Grunt. It'
 
 
 
-
-___________________________________________________________________________________________
-
 **Instructions:**
 
 (node's `npm` required- use your distro's package management system)
@@ -24,7 +21,6 @@ ________________________________________________________________________________
 5. To start server, simply type `grunt` from the same directory as the `Gruntfile.js` resides in. 
    Hint: this is the same directory as step #2 and step #3.
 
-___________________________________________________________________________________________
 
 
 
