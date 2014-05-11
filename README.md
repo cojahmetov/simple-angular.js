@@ -9,9 +9,10 @@ This is a micro boiler plate that runs Angular.js and Express.js with Grunt. It'
 ```
 Instructions:
 1) Install grunt.js with "npm install -g grunt"
-2) In the same directory as package.json resides in, type in 'npm install' to install local node dependencies.
-3) In the same directory as bower.json resides in, type in 'bower install' to install local app dependencies.
-4) To start server, simply type 'grunt' from the same directory as the Gruntfile.js resides in. 
+2) Install bower with "npm install -g bower"
+3) In the same directory as package.json resides in, type in 'npm install' to install local node dependencies.
+4) In the same directory as bower.json resides in, type in 'bower install' to install local app dependencies.
+5) To start server, simply type 'grunt' from the same directory as the Gruntfile.js resides in. 
    Hint: this is the same directory as step #2 and step #3.
 
 ```
