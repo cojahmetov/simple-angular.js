@@ -1,4 +1,5 @@
-##Micro Angular.js Boiler Plate 
+[alt text](https://raw.githubusercontent.com/dman777/icons/master/angular.png)
+##Micro Angular.js Boiler Plate !
 #####Version 0.5 Stable
 ######Todo: Clean up Gruntfile.js livereload directives
 
@@ -22,5 +23,5 @@ This is a micro boiler plate that runs Angular.js and Express.js with Grunt. It'
 
 **Optional: If you plan on only using `127.0.0.0:9000` in browser url, feel free to edit `Gruntfile.js` and uncomment the bottom line `grunt.task.run('open');` for automatic browser spawn when starting the express.js server. 
 
-![alt text](https://raw.githubusercontent.com/dman777/icons/master/angular.png)
+
 
