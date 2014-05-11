@@ -10,7 +10,7 @@ This is a micro boiler plate that runs Angular.js and Express.js with Grunt. It'
 
 
 
-*Instructions:*
+**Instructions:**
 
 *(node's `npm` required- use your distro's package management system)*
 
