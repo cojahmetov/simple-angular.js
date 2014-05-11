@@ -47,9 +47,9 @@ module.exports = function(grunt) {
     });
     grunt.registerTask('default', 'start server', function() {
         grunt.task.run('express');
-        //Uncomment this If you plan on running on running on 
-        //just 127.0.0.1 rather than all interfaces 0.0.0.0
-        grunt.task.run('open');
+        //  Uncomment grunt.task.run('open') if you plan on running on running on 
+        //  just 127.0.0.1 rather than all interfaces 0.0.0.0
+        //grunt.task.run('open');
         grunt.task.run('bowerInstall');
         grunt.task.run('watch');
     });
