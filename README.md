@@ -8,8 +8,8 @@ This is a micro boiler plate that runs Angular.js and Express.js with Grunt. It'
 **Features automatic browser refresh(remote and local) on modified files with in /static.**
 
 
-**Instructions:**
-(node's `npm` required- use your distro's package management system)
+**Instructions:**(node's `npm` required- use your distro's package management system)
+
 1. Install grunt.js with `npm install -g grunt`.
 2. Install bower with `npm install -g bower`.
 3. In the same directory as `package.json` resides in, type in `npm install` to install local node dependencies.
