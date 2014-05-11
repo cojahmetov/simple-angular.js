@@ -1,2 +1,4 @@
 *.swp
+*.bck
+flat-ui.css
 node_modules

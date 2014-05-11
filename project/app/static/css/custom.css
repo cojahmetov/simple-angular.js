@@ -1,0 +1,49 @@
+html {
+    height: 100% !important;
+    width: 100%;
+}
+
+body {
+    background-color: #f39c12;
+    height: 100%;
+    overflow: hidden;
+}
+
+#title {
+}
+
+
+
+#sidebar-bar-static {
+    margin-top: 50px;
+    margin-left: 25px;
+    position: fixed;
+    color: #1abc9c #34495e;
+}
+
+#sidebar-back-drop {
+    margin-top: 60px;
+    margin-left: 12px;
+    width: 124px;
+    height: 181px;
+    position: fixed;
+    background-color: #1abc9c;
+    border-radius: 6px;
+}
+
+#button {
+    width: 121px;
+    height: 41px;
+}
+
+.viewport { 
+    padding-top: 10%;
+    height: 100%;
+    display: block;
+}
+
+.hi {
+    color: red !important;
+    background-color: red !important;
+}
+

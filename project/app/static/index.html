@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+
+<!-- build:css app/static/css/* -->
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/custom.css">
+<!-- endbuild -->
+
+<!-- Add your site or application content here -->
+<body ng-app="darinsApp">
+<div id="sidebar-back-drop"></div>
+<div class="row">
+    <div id="sidebar-bar-static" class="col-xs-2" ng-controller="Scroller">
+	<a ng-click="scrollTo('home')" id="button" class="btn btn-default">Home</a>
+	<a ng-click="scrollTo('first')" id="button" class="btn btn-default">Weather</a>
+	<a ng-click="scrollTo('sec')" id="button" class="btn btn-default">Stocks</a>
+	<a ng-click="scrollTo('third')" id="button" class="btn btn-default">News</a>
+    </div>
+</div>
+
+<div id="home" class="viewport" ng-include="'static/views/home.html'" ></div>
+<div id="first" class="viewport" ng-include="'views/first.html'" ></div>
+<div id="sec" class="viewport" ng-include="'views/sec.html'" ></div>
+<div id="third" class="viewport" ng-include="'views/third.html'" ></div>
+
+
+
+<! -- LiveReload Script -->
+<script>document.write('<script src="http://'
++ (location.host || 'localhost').split(':')[0]
++ ':35729/livereload.js?snipver=1"></'
++ 'script>')</script>
+<! -- End of LiveReload Script -->
+
+
+<!-- bower:js -->
+<script src="../bower_components/es5-shim/es5-shim.js"></script>
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/json3/lib/json3.min.js"></script>
+<script src="../bower_components/angular-resource/angular-resource.js"></script>
+<script src="../bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<script src="../bower_components/angular-scroll/angular-scroll.min.js"></script>
+<!-- endbower -->
+<script src="scripts/angularApp.js"></script>
+<script src="scripts/controllers/main.js"></script>
+
+</body>
+</html>
