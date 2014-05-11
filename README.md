@@ -9,6 +9,7 @@ This is a micro boiler plate that runs Angular.js and Express.js with Grunt. It'
 
 
 **Instructions:**
+
 (node's `npm` required- use your distro's package management system)
 
 1. Install grunt.js with `npm install -g grunt`.
