@@ -1,4 +1,5 @@
-##Micro Angular.js Boiler Plate
+![alt text](https://raw.githubusercontent.com/dman777/icons/master/angular.png)
+##Micro Angular.js Boiler Plate 
 #####Version 0.5 Stable
 ######Todo: Clean up Gruntfile.js livereload directives
 
