@@ -8,17 +8,3 @@ darinsApp.controller('Scroller', function($scope, $location, $document, $anchorS
 });
 
 
-darinsApp.controller('HomeController', function($scope, $location, $anchorScroll) {
-    $scope.scrollTo = function(id) {
-        $location.hash(id);
-        $anchorScroll();
-    }
-});
-
-darinsApp.controller('FirstController', function($scope, $location, $anchorScroll) {
-    $scope.scrollTo = function(id) {
-        $location.hash(id);
-        $anchorScroll();
-    }
-});
-
