@@ -28,6 +28,7 @@ module.exports = function(grunt) {
 	      src: ['<%= pkg.name %>/static/index.html'],
 	    }
 	},
+	//Todo: clean up file path directives
         watch: {
 	    express: {
 		files: ['<%= pkg.name %>/static/**',
