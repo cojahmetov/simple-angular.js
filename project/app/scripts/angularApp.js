@@ -12,3 +12,4 @@ var darinsApp = angular
       $routeProvider.otherwise({ redirectTo: '/home'});
   });
 
+console.log("h");

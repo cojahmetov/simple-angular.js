@@ -18,7 +18,7 @@ module.exports = function(grunt) {
             }
 	},
 	reload: {
-	    port: 35729,
+	    port: 35728,
 	    proxy: {
 		host: '0.0.0.0'
 	    }

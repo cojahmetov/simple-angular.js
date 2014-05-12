@@ -11,7 +11,9 @@
 <body ng-app="darinsApp">
 <div id="sidebar-back-drop"></div>
 <div class="row">
-    <div id="sidebar-bar-static" class="col-xs-2" ng-controller="Scroller">
+    <!-- For Angular scrolling effects and options -->
+    <!-- see https://github.com/durated/angular-scroll -->
+    <div id="sidebar-bar-static" class="col-xs-1" ng-controller="Scroller">
 	<a ng-click="scrollTo('home')" id="button" class="btn btn-default">Home</a>
 	<a ng-click="scrollTo('first')" id="button" class="btn btn-default">Weather</a>
 	<a ng-click="scrollTo('sec')" id="button" class="btn btn-default">Stocks</a>
