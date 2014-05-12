@@ -6,7 +6,7 @@
 This is a micro boiler plate that runs Angular.js and Express.js with Grunt. It's intended audience is someone who wants something light weight - a simple boiler plate containing Angular.js with no testers, minifiers, etc. Perfect for diving into development right away. 
 
 **Features automatic browser refresh(remote and local) on modified files with in /static.**
-*ATTENTION! Please make sure to have your firewall allow ports open for livereload for this feature*
+* ATTENTION! Please make sure to have your firewall allow ports open for livereload for this feature*
 
 
 
