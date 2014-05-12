@@ -26,7 +26,7 @@ This is a micro boiler plate that runs Angular.js and Express.js with Grunt. It'
 
 * Gruntfile.js is set to listen on all interfaces by default on port 9000. Once you start your express.js server with `grunt` command, simply load browser to the ip address of the server. For example, if your host is `25.123.33.12`, type in the url window of the browser `25.123.33.12:9000`.
 
-* Optional: If you plan on only using `127.0.0.0:9000` in browser url, feel free to edit `Gruntfile.js` and uncomment the bottom line `grunt.task.run('open');` for automatic browser spawn when starting the express.js server. 
+* Optional: If you plan on only using `127.0.0.0:9000` in browser url, feel free to edit `Gruntfile.js` and uncomment the bottom line `//grunt.task.run('open');` for automatic browser spawn when starting the express.js server. 
 
 
 
